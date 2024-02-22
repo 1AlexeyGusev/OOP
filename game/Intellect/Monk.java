@@ -1,5 +1,4 @@
-package OOP.src.Intellect;
-
+package game.Intellect;
 
 public class Monk extends Intellect {
     int mana;
@@ -7,5 +6,8 @@ public class Monk extends Intellect {
 
     public Monk(String name, int HP, int maxHP, int attack, int attackRange, int defend, int initiative, int level, int experience, int intellect, int magic, int maxMagic) {
         super(name, HP, maxHP, attack, attackRange, defend, initiative, level, experience, intellect, magic, maxMagic);
+    }
+    public String getInfo() {
+        return String.format("Class: %s %s", getClass().getSimpleName(), super.getInfo());
     }
 }
