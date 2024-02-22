@@ -3,9 +3,9 @@ package game.Intellect;
 public class Magician extends Intellect {
     int mana;
     int maxMana;
-    public Magician(String name, int HP, int maxHP, int attack, int attackRange, int defend, int initiative,
-                    int level, int experience, int intellect, int magic, int maxMagic) {
-        super(name, HP, maxHP, attack, attackRange, defend, initiative, level, experience, intellect, magic, maxMagic);
+    public Magician(String name, int x, int y) {
+        super(name, 80, 80, 8, 7, 6, 1, 1, 0, 30,
+                100, 100, x, y);
         this.maxMana = this.mana = mana;
     }
 

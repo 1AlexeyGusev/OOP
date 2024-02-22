@@ -8,8 +8,8 @@ class Strength extends BaseUnit {
     private int maxStamina;
 
     public Strength(String name, int HP, int maxHP, int attack, int attackRange, int defense, int initiative,
-                    int level, int experience) {
-        super(name, HP, maxHP, attack, attackRange, defense, initiative, level, experience);
+                    int level, int experience, int x, int y) {
+        super(name, HP, maxHP, attack, attackRange, defense, initiative, level, experience, x, y);
         this.strength = strength;
         this.maxStamina = this.stamina = stamina;
 

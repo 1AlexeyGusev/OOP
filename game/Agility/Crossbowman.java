@@ -3,9 +3,8 @@ package game.Agility;
 public class Crossbowman extends Agility {
     int bolt;
     int accuracy;
-    public Crossbowman(String name, int HP, int maxHP, int attack, int attackRange, int defense,
-                       int initiative, int level, int experience, int agility, int bolt, int accuracy) {
-        super(name, HP, maxHP, attack, attackRange, defense, initiative, level, experience, agility);
+    public Crossbowman(String name, int x, int y) {
+        super(name, 100, 100, 20, 1, 15, 2, 1, 0, x, y, 10);
         this.bolt = bolt;
         this.accuracy = accuracy;
     }

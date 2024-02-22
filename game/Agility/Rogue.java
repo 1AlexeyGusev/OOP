@@ -3,9 +3,8 @@ package game.Agility;
 public class Rogue extends Agility {
     int venom;
     double stealth;
-    public Rogue(String name, int HP, int maxHP, int attack, int attackRange, int defend, int initiative,
-                 int level, int experience, int agility, int venom, double stealth) {
-        super(name, HP, maxHP, attack, attackRange, defend, initiative, level, experience, agility);
+    public Rogue(String name, int x, int y) {
+        super(name, 90, 90, 12, 1, 5, 1, 1, 0,x, y, 20);
         this.venom = venom;
         this.stealth = stealth;
     }

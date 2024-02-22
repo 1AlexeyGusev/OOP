@@ -3,9 +3,8 @@ package game.Agility;
 public class Sniper extends Agility {
     int accuracy;
     int ammo;
-    public Sniper(String name, int HP, int maxHP, int attack, int attackRange, int defend, int initiative,
-                  int level, int experience, int agility, int accuracy, int ammo) {
-        super(name, HP, maxHP, attack, attackRange, defend, initiative, level, experience, agility);
+    public Sniper(String name, int x, int y) {
+        super(name, 100, 100, 12, 8, 5, 1, 1, 0, x, y, 12);
         this.accuracy = accuracy;
         this.ammo = ammo;
     }

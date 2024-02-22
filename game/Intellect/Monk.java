@@ -4,8 +4,9 @@ public class Monk extends Intellect {
     int mana;
     int maxMana;
 
-    public Monk(String name, int HP, int maxHP, int attack, int attackRange, int defend, int initiative, int level, int experience, int intellect, int magic, int maxMagic) {
-        super(name, HP, maxHP, attack, attackRange, defend, initiative, level, experience, intellect, magic, maxMagic);
+    public Monk(String name, int x, int y) {
+        super(name, 85, 85, 10, 7, 5, 2, 1, 0, 25,
+                100, 100, x, y);
     }
     public String getInfo() {
         return String.format("Class: %s %s", getClass().getSimpleName(), super.getInfo());

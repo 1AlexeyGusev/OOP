@@ -7,8 +7,8 @@ public class Intellect extends BaseUnit {
     private int magic;
     private int maxMagic;
     public Intellect(String name, int HP, int maxHP, int attack, int attackRange, int defense, int initiative,
-                     int level, int experience, int intellect, int magic, int maxMagic) {
-        super(name, HP, maxHP, attack, attackRange, defense, initiative, level, experience);
+                     int level, int experience, int intellect, int magic, int maxMagic, int x, int y) {
+        super(name, HP, maxHP, attack, attackRange, defense, initiative, level, experience, x, y);
         this.intellect = intellect;
         this.maxMagic = this.magic = magic;
     }
