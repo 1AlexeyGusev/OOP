@@ -17,4 +17,8 @@ public class Position {
         this.y = valueY;
 
     }
+    public double getDistance(Position target){
+
+        return Math.sqrt(Math.pow(this.x - target.x, 2) + Math.pow(this.y - target.y, 2));
+    }
 }

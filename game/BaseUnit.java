@@ -1,5 +1,7 @@
 package game;
 
+import java.util.List;
+
 public abstract class BaseUnit {
     protected String name;
     protected int hp;
@@ -50,5 +52,21 @@ public abstract class BaseUnit {
         if (target.hp > target.maxhp) {
             target.hp = target.maxhp;
         }
+    }
+
+    public BaseUnit findNearestTarget(List<BaseUnit> targets) {
+        if (targets == null || targets.isEmpty()) {
+            throw new IllegalArgumentException("Противников нет!");
+        }
+        BaseUnit nearestTarget = null;
+        double minDistanse = Double.MAX_VALUE;
+        for (BaseUnit target : targets) {
+            double distance = this.position.getDistance(target.position);
+            if (distance < minDistanse) {
+                minDistanse = distance;
+                nearestTarget = target;
+            }
+        }
+        return nearestTarget;
     }
 }

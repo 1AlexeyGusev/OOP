@@ -1,5 +1,7 @@
 package game.Agility;
 
+import game.BaseUnit;
+
 public class Sniper extends Agility {
     protected int accuracy;
     protected int ammo;
@@ -10,5 +12,9 @@ public class Sniper extends Agility {
     }
     public String getInfo() {
         return String.format("Class: %s %s", getClass().getSimpleName(), super.getInfo());
+    }
+
+    public void nearestTarget(BaseUnit target){
+
     }
 }
