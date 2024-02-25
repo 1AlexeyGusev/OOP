@@ -3,14 +3,12 @@ package game.Intellect;
 import game.BaseUnit;
 
 public class Intellect extends BaseUnit {
-    private int intellect;
-    private int magic;
-    private int maxMagic;
+    protected int intellect;
+
     public Intellect(String name, int HP, int maxHP, int attack, int attackRange, int defense, int initiative,
-                     int level, int experience, int intellect, int magic, int maxMagic, int x, int y) {
+                     int level, int experience, int intellect, int x, int y) {
         super(name, HP, maxHP, attack, attackRange, defense, initiative, level, experience, x, y);
         this.intellect = intellect;
-        this.maxMagic = this.magic = magic;
     }
 
     @Override

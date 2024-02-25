@@ -1,8 +1,8 @@
 package game.Agility;
 
 public class Rogue extends Agility {
-    int venom;
-    double stealth;
+    protected int venom;
+    protected double stealth;
     public Rogue(String name, int x, int y) {
         super(name, 90, 90, 12, 1, 5, 1, 1, 0,x, y, 20);
         this.venom = venom;

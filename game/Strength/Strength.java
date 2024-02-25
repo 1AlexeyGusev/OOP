@@ -3,9 +3,9 @@ package game.Strength;
 import game.BaseUnit;
 
 class Strength extends BaseUnit {
-    private int strength;
-    private int stamina;
-    private int maxStamina;
+    protected int strength;
+    protected int stamina;
+    protected int maxStamina;
 
     public Strength(String name, int HP, int maxHP, int attack, int attackRange, int defense, int initiative,
                     int level, int experience, int x, int y) {
@@ -25,15 +25,6 @@ class Strength extends BaseUnit {
     @Override
     public void Attack(BaseUnit target) {
 
-    }
-
-    @Override
-    public void Healing(BaseUnit target) {
-
-    }
-
-    @Override
-    public void Attack(BaseUnit target) {
 
     }
 
@@ -41,4 +32,6 @@ class Strength extends BaseUnit {
     public void Healing(BaseUnit target) {
 
     }
+
+
 }
