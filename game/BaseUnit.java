@@ -2,7 +2,7 @@ package game;
 
 import java.util.List;
 
-public abstract class BaseUnit {
+public abstract class BaseUnit implements MyInterface {
     protected String name;
     protected int hp;
     protected int maxhp;
@@ -14,6 +14,7 @@ public abstract class BaseUnit {
     protected int experience;
 
     Position position;
+
 
     public BaseUnit(String name, int hp, int maxhp, int attack, int attackRange, int defense, int initiative, int level,
                     int experience, int x, int y) {
@@ -54,6 +55,11 @@ public abstract class BaseUnit {
         }
     }
 
+    /**
+     * Метод поиска ближайшего противника
+     * @param targets список противников
+     * @return ближайшего противника
+     */
     public BaseUnit findNearestTarget(List<BaseUnit> targets) {
         if (targets == null || targets.isEmpty()) {
             throw new IllegalArgumentException("Противников нет!");

@@ -2,6 +2,8 @@ package game.Intellect;
 
 import game.BaseUnit;
 
+import java.util.List;
+
 public class Intellect extends BaseUnit {
     protected int intellect;
 
@@ -25,6 +27,11 @@ public class Intellect extends BaseUnit {
 
     @Override
     public void Healing(BaseUnit target) {
+
+    }
+
+    @Override
+    public void step(List<BaseUnit> team1, List<BaseUnit> team2) {
 
     }
 }

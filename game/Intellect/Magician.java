@@ -1,5 +1,9 @@
 package game.Intellect;
 
+import game.BaseUnit;
+
+import java.util.List;
+
 public class Magician extends Intellect {
     protected int mana;
     protected int maxMana;
@@ -11,5 +15,10 @@ public class Magician extends Intellect {
     @Override
     public String getInfo() {
         return String.format("Class: %s %s", getClass().getSimpleName(), super.getInfo());
+    }
+
+    @Override
+    public void step(List<BaseUnit> team1, List<BaseUnit> team2) {
+        super.step(team1, team2);
     }
 }

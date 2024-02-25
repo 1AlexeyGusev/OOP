@@ -2,6 +2,8 @@ package game.Agility;
 
 import game.BaseUnit;
 
+import java.util.List;
+
 public class Sniper extends Agility {
     protected int accuracy;
     protected int ammo;
@@ -14,7 +16,8 @@ public class Sniper extends Agility {
         return String.format("Class: %s %s", getClass().getSimpleName(), super.getInfo());
     }
 
-    public void nearestTarget(BaseUnit target){
-
+    @Override
+    public void step(List<BaseUnit> team1, List<BaseUnit> team2) {
+        super.step(team1, team2);
     }
 }

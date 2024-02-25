@@ -2,6 +2,8 @@ package game.Strength;
 
 import game.BaseUnit;
 
+import java.util.List;
+
 class Strength extends BaseUnit {
     protected int strength;
     protected int stamina;
@@ -34,4 +36,8 @@ class Strength extends BaseUnit {
     }
 
 
+    @Override
+    public void step(List<BaseUnit> team1, List<BaseUnit> team2) {
+
+    }
 }

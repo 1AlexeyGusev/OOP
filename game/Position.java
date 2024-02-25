@@ -17,6 +17,12 @@ public class Position {
         this.y = valueY;
 
     }
+
+    /**
+     * Определение расстояния между героем и целью
+     * @param target цель
+     * @return расстояние
+     */
     public double getDistance(Position target){
 
         return Math.sqrt(Math.pow(this.x - target.x, 2) + Math.pow(this.y - target.y, 2));

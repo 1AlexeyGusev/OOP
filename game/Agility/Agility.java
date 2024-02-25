@@ -2,6 +2,8 @@ package game.Agility;
 
 import game.BaseUnit;
 
+import java.util.List;
+
 public class Agility extends BaseUnit {
     private int agility;
 
@@ -25,6 +27,11 @@ public class Agility extends BaseUnit {
 
     @Override
     public void Healing(BaseUnit target) {
+
+    }
+
+    @Override
+    public void step(List<BaseUnit> team1, List<BaseUnit> team2) {
 
     }
 }
