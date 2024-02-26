@@ -20,5 +20,9 @@ public class Crossbowman extends Agility {
     @Override
     public void step(List<BaseUnit> team1, List<BaseUnit> team2) {
         super.step(team1, team2);
+        if ((hp<=0) || (bolt == 0)) return;
+        BaseUnit target = super.findNearestTarget(team2);
+        target.getDamage(this.attack);
+        bolt--;
     }
 }

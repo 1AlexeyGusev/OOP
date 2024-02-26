@@ -37,13 +37,13 @@ public abstract class BaseUnit implements MyInterface {
         return String.format("Name: %s HP: %d Position: %s", this.name, this.hp, position);
     }
 
-    public void GetDamage(int damage) {
+    public void getDamage(int damage) {
         if (this.hp - damage > 0) {
             this.hp -= damage;
         }
     }
 
-    public void Attack(BaseUnit target) {
+    public void attack(BaseUnit target) {
         int damage = this.attack - target.defense;
     }
 
@@ -75,4 +75,6 @@ public abstract class BaseUnit implements MyInterface {
         }
         return nearestTarget;
     }
+
+    public abstract void healing(BaseUnit target);
 }

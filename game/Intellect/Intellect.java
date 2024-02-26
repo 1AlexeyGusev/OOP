@@ -14,19 +14,19 @@ public class Intellect extends BaseUnit {
     }
 
     @Override
-    public void GetDamage(int damage) {
+    public void getDamage(int damage) {
         if (this.hp - damage > 0) {
             this.hp -= damage;
         }
     }
 
     @Override
-    public void Attack(BaseUnit target) {
+    public void attack(BaseUnit target) {
 
     }
 
     @Override
-    public void Healing(BaseUnit target) {
+    public void healing(BaseUnit target) {
 
     }
 
