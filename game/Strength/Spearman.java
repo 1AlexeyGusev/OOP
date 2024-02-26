@@ -7,7 +7,7 @@ import java.util.List;
 public class Spearman extends Strength {
     protected int armor;
     public Spearman(String name, int x, int y) {
-        super(name, 150, 150, 20, 2, 20, 3, 1, 0, x, y);
+        super(name, 150, 150, 20, 2, 20, 2, 1, 0, x, y);
         this.armor = armor;
     }
     public String getInfo() {
