@@ -2,19 +2,29 @@ package game.Strength;
 
 import game.BaseUnit;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Peasant extends Strength {
+    int ammo;
+    boolean flag;
 
     public Peasant(String name, int x, int y) {
+
         super(name, 20, 20, 3, 1, 5, 0, 1, 0, x, y);
+        ammo = 0;
     }
-    public String getInfo() {
-        return String.format("Class: %s %s", getClass().getSimpleName(), super.getInfo());
+//    public String getInfo() {
+//        return String.format("Class: %s %s", getClass().getSimpleName(), super.getInfo());
+//    }
+public String getInfo(){
+        return "Фермер";
     }
 
-    @Override
-    public void step(List<BaseUnit> team1, List<BaseUnit> team2) {
-        super.step(team1, team2);
+    public void step(ArrayList<BaseUnit> targets, ArrayList<BaseUnit> friends) {
+
+        if (getHp() <= 0) return;
+        flag = false;
     }
 }
+

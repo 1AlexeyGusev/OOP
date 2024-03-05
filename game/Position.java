@@ -17,7 +17,10 @@ public class Position {
         this.y = valueY;
 
     }
-
+    public Position getDiffPos(Position target) {
+        Position dif = new Position(x - target.x, y - target.y);
+        return dif;
+    }
     /**
      * Определение расстояния между героем и целью
      * @param target цель

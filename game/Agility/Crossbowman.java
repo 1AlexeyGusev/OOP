@@ -2,27 +2,30 @@ package game.Agility;
 
 import game.BaseUnit;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Crossbowman extends Agility {
     protected int bolt;
-    protected int accuracy;
+    protected double accuracy;
+
     public Crossbowman(String name, int x, int y) {
-        super(name, 100, 100, 20, 1, 15, 3, 1, 0, x, y, 10);
-        this.bolt = bolt;
-        this.accuracy = accuracy;
+        super(name, 100, 100, 30, 1, 15, 3, 1, 0, x, y, 10);
+        this.bolt = 50;
+        this.accuracy = 1;
     }
 
+    //    public String getInfo() {
+//        return String.format("Class: %s %s", getClass().getSimpleName(), super.getInfo());
+//    }
     public String getInfo() {
-        return String.format("Class: %s %s", getClass().getSimpleName(), super.getInfo());
+        return "Арбалетчик";
     }
 
-    @Override
-    public void step(List<BaseUnit> team1, List<BaseUnit> team2) {
-        super.step(team1, team2);
-        if ((hp<=0) || (bolt == 0)) return;
-        BaseUnit target = super.findNearestTarget(team2);
-        target.getDamage(this.attack);
+    public void step(ArrayList<BaseUnit> enemy, ArrayList<BaseUnit> friend) {
+        if (getHp() <= 0 || bolt == 0) return;
+        hitEnemy(findNearestTarget(enemy));
         bolt--;
     }
 }

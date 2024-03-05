@@ -12,12 +12,11 @@ public class Rogue extends Agility {
         this.venom = venom;
         this.stealth = stealth;
     }
-    public String getInfo() {
-        return String.format("Class: %s %s", getClass().getSimpleName(), super.getInfo());
-    }
+//    public String getInfo() {
+//        return String.format("Class: %s %s", getClass().getSimpleName(), super.getInfo());
+//    }
+public String getInfo(){
+    return "Разбойник";
+}
 
-    @Override
-    public void step(List<BaseUnit> team1, List<BaseUnit> team2) {
-        super.step(team1, team2);
-    }
 }

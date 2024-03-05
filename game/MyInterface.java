@@ -1,12 +1,14 @@
 package game;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.List;
 
 public interface MyInterface {
     /**
      * Метод совершения хода
-     * @param team1 - 1я команда
-     * @param team2 - 2я команда
+     * @param enemy - 1я команда
+     * @param friend - 2я команда
      */
-    public void step(List<BaseUnit>team1, List<BaseUnit>team2);
+    public void step(ArrayList<BaseUnit> enemy, ArrayList<BaseUnit>friend);
 }

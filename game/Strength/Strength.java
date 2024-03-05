@@ -2,6 +2,7 @@ package game.Strength;
 
 import game.BaseUnit;
 
+import java.util.ArrayList;
 import java.util.List;
 
 class Strength extends BaseUnit {
@@ -9,35 +10,30 @@ class Strength extends BaseUnit {
     protected int stamina;
     protected int maxStamina;
 
-    public Strength(String name, int HP, int maxHP, int attack, int attackRange, int defense, int initiative,
+    public Strength(String name, double hp, double maxhp, int attack, int attackRange, int defense, int initiative,
                     int level, int experience, int x, int y) {
-        super(name, HP, maxHP, attack, attackRange, defense, initiative, level, experience, x, y);
+        super(name, hp, maxhp, attack, attackRange, defense, initiative, level, experience, x, y);
         this.strength = strength;
         this.maxStamina = this.stamina = stamina;
 
     }
 
     @Override
-    public void getDamage(int damage) {
+    public void getDamage(double damage) {
         if (this.hp - damage > 0) {
             this.hp -= damage;
         }
     }
 
     @Override
-    public void attack(BaseUnit target) {
-
-
+    public void hitEnemy(BaseUnit target) {
     }
-
     @Override
     public void healing(BaseUnit target) {
 
     }
-
-
     @Override
-    public void step(List<BaseUnit> team1, List<BaseUnit> team2) {
+    public void step(ArrayList<BaseUnit> enemy, ArrayList<BaseUnit> friend) {
 
     }
 }
