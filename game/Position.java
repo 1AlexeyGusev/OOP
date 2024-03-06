@@ -1,7 +1,8 @@
 package game;
 
 public class Position {
-    int x, y;
+    public int x;
+    public int y;
     public Position(int x, int y) {
         this.x = x;
         this.y = y;
@@ -18,8 +19,7 @@ public class Position {
 
     }
     public Position getDiffPos(Position target) {
-        Position dif = new Position(x - target.x, y - target.y);
-        return dif;
+        return new Position(x - target.x, y - target.y);
     }
     /**
      * Определение расстояния между героем и целью

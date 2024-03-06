@@ -14,16 +14,7 @@ public class Intellect extends BaseUnit {
         this.intellect = intellect;
     }
 
-    @Override
-    public void getDamage(double damage) {
-        if (this.hp - damage > 0) {
-            this.hp -= damage;
-        }
-    }
-    @Override
-    public void hitEnemy(BaseUnit target) {
 
-    }
     @Override
     public void healing(BaseUnit target) {
 

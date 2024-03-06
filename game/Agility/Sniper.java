@@ -12,7 +12,7 @@ public class Sniper extends Agility {
     public Sniper(String name, int x, int y) {
         super(name, 100, 100, 12, 8, 5, 3, 1, 0, x, y, 12);
         this.accuracy = accuracy;
-        this.bullets = bullets;
+        this.bullets = 100;
     }
 
     //    public String getInfo() {
@@ -23,10 +23,8 @@ public class Sniper extends Agility {
     }
 
     public void step(ArrayList<BaseUnit> enemy, ArrayList<BaseUnit> friend) {
-        if ((hp <= 0) || (bullets == 0)) return;
-        BaseUnit target = super.findNearestTarget(enemy);
-        if (target == null) return;
-        target.getDamage(this.attack);
+        if ((getHp() <= 0) || (bullets == 0)) return;
+        hitEnemy(findNearestTarget(enemy));
         bullets--;
     }
 }

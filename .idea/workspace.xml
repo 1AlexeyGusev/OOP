@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1590a74d-5f06-4a22-a8bb-6052c230fe54" name="Changes" comment="заработала атака арбалетчиков. как у наследника модифицировать метод атаки пока не разобрался)">
+      <change beforePath="$PROJECT_DIR$/game/Agility/Agility.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/Agility/Agility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/Agility/Rogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/Agility/Rogue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/Agility/Sniper.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/Agility/Sniper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/BaseUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/BaseUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/Intellect/Intellect.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/Intellect/Intellect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/Strength/Spearman.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/Strength/Spearman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/Strength/Strength.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/Strength/Strength.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2cViDEos3adGOYOb9SrpQ1FiopG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Program.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/555/OneDrive/Рабочий стол/обучение/ООП/OOP/src",
+    "last_opened_file_path": "C:/Users/555/OneDrive/Рабочий стол/обучение/ООП",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="game" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="game.Program" />
+      <module name="ООП" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Program" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1590a74d-5f06-4a22-a8bb-6052c230fe54" name="Changes" comment="" />
+      <created>1708203024249</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708203024249</updated>
+    </task>
+    <task id="LOCAL-00001" summary="2">
+      <option name="closed" value="true" />
+      <created>1708536608698</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708536608698</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add class Place and put it to abstract class BaseUnit">
+      <option name="closed" value="true" />
+      <created>1708599376957</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708599376957</updated>
+    </task>
+    <task id="LOCAL-00003" summary="чуть не доделал 2 домашку, не успеваю, за выходные догоню) i promise)">
+      <option name="closed" value="true" />
+      <created>1708619240473</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708619240473</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Скорректировать алгоритм заполнения команд. Кроме имён каждый персонаж должен иметь координаты.">
+      <option name="closed" value="true" />
+      <created>1708888719434</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708888719434</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Одна команда находится с левой стороны другая с правой(у=0 и у=9).">
+      <option name="closed" value="true" />
+      <created>1708888776968</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708888776968</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Реализован метод определения дистанции между героями, метод поиска ближайшего противника.">
+      <option name="closed" value="true" />
+      <created>1708892028612</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708892028612</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Добавлен интерфейс в базовый абстрактный класс. Реализован этот метод во всех классах наследниках заглушкой.">
+      <option name="closed" value="true" />
+      <created>1708893603744</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708893603744</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Доработать классы лучников. Лучник должен во первых проверить жив ли он и есть ли у него стрелы, если нет то завершить метод.&#10;Если всё да, то найти ближайшего противника и выстрелить по нему и, соответственно потратить одну стрелу.">
+      <option name="closed" value="true" />
+      <created>1708964685345</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708964685345</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Добавить в абстрактный класс int поле инициатива. В классах наследников инициализировать это поле.&#10;Крестьянин = 0, маги=1, пехота=2, лучники=3.">
+      <option name="closed" value="true" />
+      <created>1708964845053</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708964845053</updated>
+    </task>
+    <task id="LOCAL-00010" summary="заработала атака арбалетчиков. как у наследника модифицировать метод атаки пока не разобрался)">
+      <option name="closed" value="true" />
+      <created>1709662273613</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709662273613</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2" />
+    <MESSAGE value="add class Place and put it to abstract class BaseUnit" />
+    <MESSAGE value="чуть не доделал 2 домашку, не успеваю, за выходные догоню) i promise)" />
+    <MESSAGE value="Скорректировать алгоритм заполнения команд. Кроме имён каждый персонаж должен иметь координаты." />
+    <MESSAGE value="Одна команда находится с левой стороны другая с правой(у=0 и у=9)." />
+    <MESSAGE value="Реализован метод определения дистанции между героями, метод поиска ближайшего противника." />
+    <MESSAGE value="Добавлен интерфейс в базовый абстрактный класс. Реализован этот метод во всех классах наследниках заглушкой." />
+    <MESSAGE value="Доработать классы лучников. Лучник должен во первых проверить жив ли он и есть ли у него стрелы, если нет то завершить метод.&#10;Если всё да, то найти ближайшего противника и выстрелить по нему и, соответственно потратить одну стрелу." />
+    <MESSAGE value="Добавить в абстрактный класс int поле инициатива. В классах наследников инициализировать это поле.&#10;Крестьянин = 0, маги=1, пехота=2, лучники=3." />
+    <MESSAGE value="заработала атака арбалетчиков. как у наследника модифицировать метод атаки пока не разобрался)" />
+    <option name="LAST_COMMIT_MESSAGE" value="заработала атака арбалетчиков. как у наследника модифицировать метод атаки пока не разобрался)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/game/View.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

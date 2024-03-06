@@ -1,5 +1,7 @@
 package game;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.List;
 
 public abstract class BaseUnit implements MyInterface {
@@ -43,12 +45,11 @@ public abstract class BaseUnit implements MyInterface {
 //    }
     @Override
     public String toString() {
-        return name + ", \u2665: " + hp + ",  ⚔ : " + attack + ", \uD83D\uDEE1\uFE0F :" + defense;
+        return getClass().getSimpleName() + " " + name + ", \u2665: " + hp + ",  ⚔ : " + attack + ", \uD83D\uDEE1\uFE0F :" + defense;
     }
 
     /**
      * Метод получения урона
-     *
      * @param damage урон
      */
     public void getDamage(double damage) {
@@ -101,7 +102,7 @@ public abstract class BaseUnit implements MyInterface {
      * @param targets список противников
      * @return ближайшего противника
      */
-    public BaseUnit findNearestTarget(List<BaseUnit> targets) {
+    public BaseUnit findNearestTarget(ArrayList<BaseUnit> targets) {
         if (targets == null || targets.isEmpty()) {
             throw new IllegalArgumentException("Противников нет!");
         }

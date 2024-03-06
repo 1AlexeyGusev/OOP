@@ -19,19 +19,10 @@ class Strength extends BaseUnit {
     }
 
     @Override
-    public void getDamage(double damage) {
-        if (this.hp - damage > 0) {
-            this.hp -= damage;
-        }
-    }
-
-    @Override
-    public void hitEnemy(BaseUnit target) {
-    }
-    @Override
     public void healing(BaseUnit target) {
 
     }
+
     @Override
     public void step(ArrayList<BaseUnit> enemy, ArrayList<BaseUnit> friend) {
 
