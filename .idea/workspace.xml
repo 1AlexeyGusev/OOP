@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1590a74d-5f06-4a22-a8bb-6052c230fe54" name="Changes" comment="заработала атака арбалетчиков. как у наследника модифицировать метод атаки пока не разобрался)">
-      <change beforePath="$PROJECT_DIR$/game/Agility/Agility.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/Agility/Agility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/Agility/Rogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/Agility/Rogue.java" afterDir="false" />
+    <list default="true" id="1590a74d-5f06-4a22-a8bb-6052c230fe54" name="Changes" comment="дз к 4 семинару">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/Agility/Crossbowman.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/Agility/Crossbowman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/Agility/Sniper.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/Agility/Sniper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/BaseUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/BaseUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/Intellect/Intellect.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/Intellect/Intellect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/Strength/Spearman.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/Strength/Spearman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/Strength/Strength.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/Strength/Strength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/game/Readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/Strength/Peasant.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/Strength/Peasant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,22 +40,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Program.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/555/OneDrive/Рабочий стол/обучение/ООП/OOP/src",
-    "last_opened_file_path": "C:/Users/555/OneDrive/Рабочий стол/обучение/ООП",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Program.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/555/OneDrive/Рабочий стол/обучение/ООП/OOP/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/555/OneDrive/Рабочий стол/обучение/ООП&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="game" />
@@ -179,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709662273613</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="дз к 4 семинару">
+      <option name="closed" value="true" />
+      <created>1709722313710</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709722313710</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -193,7 +199,8 @@
     <MESSAGE value="Доработать классы лучников. Лучник должен во первых проверить жив ли он и есть ли у него стрелы, если нет то завершить метод.&#10;Если всё да, то найти ближайшего противника и выстрелить по нему и, соответственно потратить одну стрелу." />
     <MESSAGE value="Добавить в абстрактный класс int поле инициатива. В классах наследников инициализировать это поле.&#10;Крестьянин = 0, маги=1, пехота=2, лучники=3." />
     <MESSAGE value="заработала атака арбалетчиков. как у наследника модифицировать метод атаки пока не разобрался)" />
-    <option name="LAST_COMMIT_MESSAGE" value="заработала атака арбалетчиков. как у наследника модифицировать метод атаки пока не разобрался)" />
+    <MESSAGE value="дз к 4 семинару" />
+    <option name="LAST_COMMIT_MESSAGE" value="дз к 4 семинару" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

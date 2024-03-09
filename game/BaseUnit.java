@@ -14,8 +14,6 @@ public abstract class BaseUnit implements MyInterface {
     protected int initiative;
     protected int level;
     protected int experience;
-    int x;
-    int y;
     public Position position;
 
 
@@ -40,9 +38,6 @@ public abstract class BaseUnit implements MyInterface {
         return hp;
     }
 
-    //    public String getInfo() {
-//        return String.format("Name: %s HP: %d LVL: %d", this.name, this.hp, this.level);
-//    }
     @Override
     public String toString() {
         return getClass().getSimpleName() + " " + name + ", \u2665: " + hp + ",  ⚔ : " + attack + ", \uD83D\uDEE1\uFE0F :" + defense;
@@ -60,7 +55,11 @@ public abstract class BaseUnit implements MyInterface {
         }
         if (hp >= maxhp) hp = maxhp;
     }
-
+    /**
+     * Метод атаки
+     *
+     * @param target - противник
+     */
     public void hitEnemy(BaseUnit target) {
         double damage = this.attack - target.defense;
         target.getDamage(damage);
@@ -81,20 +80,12 @@ public abstract class BaseUnit implements MyInterface {
 
     }
 
-
     public boolean isDead() {
         if (getHp() <= 0) {
             return true;
         }
         return false;
     }
-
-    /**
-     * Метод атаки
-     *
-     * @param target - противник
-     */
-
 
     /**
      * Метод поиска ближайшего противника

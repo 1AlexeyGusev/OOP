@@ -7,16 +7,15 @@ import java.util.List;
 
 public class Peasant extends Strength {
     int ammo;
-    boolean flag;
+    public boolean flag;
 
     public Peasant(String name, int x, int y) {
 
         super(name, 20, 20, 3, 1, 5, 0, 1, 0, x, y);
         ammo = 0;
+        flag = false;
     }
-//    public String getInfo() {
-//        return String.format("Class: %s %s", getClass().getSimpleName(), super.getInfo());
-//    }
+
 public String getInfo(){
         return "Фермер";
     }
