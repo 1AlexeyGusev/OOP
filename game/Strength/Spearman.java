@@ -25,6 +25,9 @@ public class Spearman extends Strength {
 
     public void step(ArrayList<BaseUnit> enemy, ArrayList<BaseUnit> friend) {
         if (hp <= 0) return;
+        if(findNearestTarget(enemy) == null){
+            return;
+        }
         BaseUnit target = super.findNearestTarget(enemy);
         if (position.getDistance(target.position) < 2) {
             hitEnemy(findNearestTarget(enemy));

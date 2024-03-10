@@ -59,7 +59,7 @@ public abstract class BaseUnit implements MyInterface {
         hp -= damage;
         if (hp < 0) {
             hp = 0;
-            death();
+//            death();
         }
         if (hp >= maxhp) hp = maxhp;
     }
@@ -69,8 +69,10 @@ public abstract class BaseUnit implements MyInterface {
      * @param target - противник
      */
     public void hitEnemy(BaseUnit target) {
-        double damage = this.attack - target.defense;
-        target.getDamage(damage);
+        if (target != null) {
+            double damage = this.attack - target.defense;
+            target.getDamage(damage);
+        } else return;
     }
 
     public void Healing(BaseUnit target) {
@@ -81,12 +83,12 @@ public abstract class BaseUnit implements MyInterface {
         }
     }
 
-    public void death() {
-        if (getHp() <= 0) {
-            System.out.println("Персонаж умер...");
-        }
-
-    }
+//    public void death() {
+//        if (getHp() <= 0) {
+//            System.out.println("Персонаж умер...");
+//        }
+//
+//    }
 
     public boolean isDead() {
         if (getHp() <= 0) {

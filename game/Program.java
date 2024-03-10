@@ -40,10 +40,10 @@ public class Program {
             int summ1HP = 0;
             int summ2HP = 0;
             for (BaseUnit unit : holyTeam){
-                summ1HP += unit.getHp();
+                summ1HP += (int) unit.getHp();
             }
             for (BaseUnit unit : darkTeam){
-                summ2HP += unit.getHp();
+                summ2HP += (int) unit.getHp();
             }
             if (summ1HP == 0){
                 System.out.println("Победила команда darkTeam");
