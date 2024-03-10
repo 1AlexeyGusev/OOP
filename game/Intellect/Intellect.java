@@ -1,11 +1,12 @@
 package game.Intellect;
 
 import game.BaseUnit;
+import game.MyInterface;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Intellect extends BaseUnit {
+public class Intellect extends BaseUnit implements MyInterface {
     protected int intellect;
 
     public Intellect(String name, double hp, double maxhp, int attack, int attackRange, int defense, int initiative,

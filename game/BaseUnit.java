@@ -37,6 +37,14 @@ public abstract class BaseUnit implements MyInterface {
     public double getHp() {
         return hp;
     }
+    public double setHp(double hp) {
+        this.hp = hp;
+        return hp;
+    }
+
+    public String getName() {
+        return name;
+    }
 
     @Override
     public String toString() {

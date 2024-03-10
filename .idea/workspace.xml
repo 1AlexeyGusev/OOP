@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1590a74d-5f06-4a22-a8bb-6052c230fe54" name="Changes" comment="дз к 4 семинару">
+    <list default="true" id="1590a74d-5f06-4a22-a8bb-6052c230fe54" name="Changes" comment="реализован step to Peasant">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/Agility/Crossbowman.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/Agility/Crossbowman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/Agility/Sniper.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/Agility/Sniper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/BaseUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/BaseUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/Intellect/Intellect.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/Intellect/Intellect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/Intellect/Monk.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/Intellect/Monk.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/game/Readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/Strength/Peasant.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/Strength/Peasant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709722313710</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="реализован step to Peasant">
+      <option name="closed" value="true" />
+      <created>1709971088444</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709971088444</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -200,7 +207,8 @@
     <MESSAGE value="Добавить в абстрактный класс int поле инициатива. В классах наследников инициализировать это поле.&#10;Крестьянин = 0, маги=1, пехота=2, лучники=3." />
     <MESSAGE value="заработала атака арбалетчиков. как у наследника модифицировать метод атаки пока не разобрался)" />
     <MESSAGE value="дз к 4 семинару" />
-    <option name="LAST_COMMIT_MESSAGE" value="дз к 4 семинару" />
+    <MESSAGE value="реализован step to Peasant" />
+    <option name="LAST_COMMIT_MESSAGE" value="реализован step to Peasant" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
