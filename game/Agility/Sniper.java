@@ -7,19 +7,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Sniper extends Agility {
-    protected int accuracy;
     protected int bullets;
     protected int maxBullets;
 
     public Sniper(String name, int x, int y) {
         super(name, 100, 100, 12, 8, 5, 3, 1, 0, x, y, 12);
-        this.accuracy = accuracy;
         this.maxBullets = this.bullets = 100;
     }
 
-    //    public String getInfo() {
-//        return String.format("Class: %s %s", getClass().getSimpleName(), super.getInfo());
-//    }
     public String getInfo() {
         return "Снайпер";
     }
